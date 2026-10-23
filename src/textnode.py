@@ -1,4 +1,5 @@
 from enum import Enum
+import typing
 
 class TextType(Enum):
     PLAIN = "plain"
