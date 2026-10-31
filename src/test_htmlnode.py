@@ -1,7 +1,7 @@
 import unittest
 from htmlnode import HTMLNode, LeafNode
 
-
+#Tests for main HTMLNode class
 class TestHTMLNode(unittest.TestCase):
     def test_to_html(self):
         node = HTMLNode(tag="p", value="Hello, world!")
@@ -16,7 +16,7 @@ class TestHTMLNode(unittest.TestCase):
         expected_repr = "HTMLNode(tag=span, value=Sample text, children=None, props={'style': 'color: red;'})"
         self.assertEqual(repr(node), expected_repr)
 
-
+#Tests for leaf HTMLNodes
 class TestLeafNode(unittest.TestCase):
     def test_to_html_without_tag(self):
         node = LeafNode(tag=None, value="Plain text")
