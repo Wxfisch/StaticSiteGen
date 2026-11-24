@@ -40,7 +40,7 @@ class TestLeafNode(unittest.TestCase):
     def test_to_html_without_value_raises_value_error(self):
         node = LeafNode(tag="p", value=None) # type: ignore
         self.assertRaises(ValueError, node.to_html)
-
+# Tests for Parent HTML nodes
 class TestParentNode(unittest.TestCase):
     def test_to_html_with_children(self):
         child_node = LeafNode("span", "child")
