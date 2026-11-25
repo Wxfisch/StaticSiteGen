@@ -1,5 +1,5 @@
 # StaticSiteGen
-A Static Site Generator for Boot.Dev
+A Static Site Generator for Boot.Dev to practice data structures and especially hiw to build unit tests. 
 
 This is a work in progress as I complete lessons within the project.
 
